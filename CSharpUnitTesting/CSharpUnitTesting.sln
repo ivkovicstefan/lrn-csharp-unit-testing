@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{A0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNinja", "Projects\TestNinja\TestNinja.csproj", "{7328740E-4B78-464F-8352-65D887F2145F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNinja.UnitTests", "Projects\TestNinja.UnitTests\TestNinja.UnitTests.csproj", "{597BE584-BF09-4DF1-9C86-6ACD4345BA3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{7328740E-4B78-464F-8352-65D887F2145F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7328740E-4B78-464F-8352-65D887F2145F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7328740E-4B78-464F-8352-65D887F2145F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597BE584-BF09-4DF1-9C86-6ACD4345BA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597BE584-BF09-4DF1-9C86-6ACD4345BA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597BE584-BF09-4DF1-9C86-6ACD4345BA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597BE584-BF09-4DF1-9C86-6ACD4345BA3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7328740E-4B78-464F-8352-65D887F2145F} = {A0915C85-DE78-4ABE-81DE-0FC30AF555A0}
+		{597BE584-BF09-4DF1-9C86-6ACD4345BA3B} = {A0915C85-DE78-4ABE-81DE-0FC30AF555A0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4D5FD592-FAC6-496B-B2A1-950CD64B353E}
